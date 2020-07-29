@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', function () {
    'use strict';
-   let tab = document.querySelectorAll('.info-header-tab'),
-      info = document.querySelector('.info-header'),
-      tabContent = document.querySelectorAll('.info-tabcontent');
+   let tab = document.querySelectorAll('.info-header-tab'), //elem nav tab
+      info = document.querySelector('.info-header'), //nav tab
+      tabContent = document.querySelectorAll('.info-tabcontent'); //content tab
 
       function hideTabeContent(a) {
          for(let i = a; i < tabContent.length; i++){
